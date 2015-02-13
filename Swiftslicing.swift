@@ -84,8 +84,8 @@ extension String {
 var helloWorld = "Hello, World!"
 var hello = helloWorld[(0,5)]
 hello[0] = "Y"                          // and single substitutions...
-hello                                   // Yello, World!
-hello[(1,3)] = "owz"
-hello                                   // Yowzo, World!
+hello                                   // Yello
+helloWorld[(1,3)] = "owz"
+helloWorld                              // Howzo, World!
 
 
